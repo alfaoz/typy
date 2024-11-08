@@ -6,6 +6,7 @@ from PyQt6.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, QH
                              QCheckBox, QStyle, QStyleFactory, QComboBox, QMessageBox, QPlainTextEdit, QPinchGesture)
 from PyQt6.QtGui import QFont, QPainter, QColor, QImage, QPen, QTextCursor, QFontMetrics, QPageSize
 from PyQt6.QtCore import Qt, QRect, QTimer, pyqtSignal, QMarginsF, QSizeF, QEvent, QByteArray, QBuffer
+from PyQt6.QtSpatialAudio import QAudioEngine, QAmbientSound
 import os
 import random
 from PIL import Image
